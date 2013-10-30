@@ -3,10 +3,7 @@ $(call inherit-product, device/samsung/quincyatt/full_quincyatt.mk)
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xhdpi
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/carbon/config/common_gsm.mk)
-
-# Inherit some common CM stuff.
+# Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # languages
